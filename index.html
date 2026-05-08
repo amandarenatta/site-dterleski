@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DTERLESKI Placas Mercosul | Estampadora em Santa Catarina</title>
+    <meta
+      name="description"
+      content="Fábrica e estampadora de placas Mercosul em Santa Catarina. Atendimento rápido, placas automotivas e emplacamento veicular com qualidade."
+    />
+    <meta
+      name="keywords"
+      content="placas mercosul, placa mercosul, estampadora de placas, estampadora Canoinhas, Placa danificada, fabrica de placas mercosul, emplacamento veicular, placas automotivas, placas padrão mercosul, placas veiculares, placa carro, placa moto, segunda placa mercosul, transferencia veicular, placas sc, placas santa catarina, estampadora sc, placa Três Barras, placas Canoinhas, dterleski, dterleski placas, douglas terleski, fabrica dterleski, placas dterleski, emplacamento Três Barras, mercosul santa catarina, empresa de placas, placa automovel, placa personalizada, credenciada detran, placa oficial mercosul, placa veiculo brasil, emplacadora, troca de placas, placa nova mercosul, estampagem de placas"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container-header">
+        <div class="logo-container">
+          <a href="#">
+            <img
+              src="imagens/logo.png"
+              alt="DTERLESKI PLACAS"
+              class="logo-img"
+            />
+          </a>
+        </div>
+
+        <div class="menu-toggle" id="mobile-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+
+        <nav class="menu-navegacao" id="nav-menu">
+          <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#Servicos">Serviços</a></li>
+            <li><a href="#Sobre">Sobre</a></li>
+            <li><a href="#localizacao">Localização</a></li>
+          </ul>
+
+          <div class="header-socials">
+            <a
+              href="https://instagram.com/dterleski_placas"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://wa.me/554733072997"
+              target="_blank"
+              class="social-icon whatsapp-header-icon"
+            >
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="provador-section">
+        <div class="container-provador">
+          <div class="carro-base">
+            <div class="video-container" id="video">
+              <video autoplay muted loop playsinline class="video-bg">
+                <source src="imagens/video-opçao2.mp4" type="video/mp4" />
+                Seu navegador não suporta vídeos.
+              </video>
+              <img
+                src="imagens/carro-placa.png"
+                alt="Dterleski Placas"
+                class="img-bg-mobile"
+              />
+              <div class="video-overlay"></div>
+            </div>
+
+            <h1 class="welcome-text">
+              <span class="line-small">Bem-vindos à</span>
+              <span class="line-large">DTERLESKI</span>
+              <span class="line-medium">PLACAS</span>
+            </h1>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-contents" id="Servicos">
+        <div class="section-header" data-bg-text="Dterleski">
+          <div class="title-content">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <div class="title-accent"></div>
+          </div>
+        </div>
+
+        <div class="local-contents">
+          <div class="cards">
+            <div class="card">
+              <img
+                src="imagens/emplacamento-novo.jpeg"
+                alt="Emplacamento 0KM"
+              />
+              <h3>Emplacamento de Veículos 0KM</h3>
+            </div>
+
+            <div class="card">
+              <img src="imagens/substituição.PNG" alt="Troca Mercosul" />
+              <h3>Troca de Placa Padrão Antigo para Mercosul</h3>
+            </div>
+
+            <div class="card">
+              <img src="imagens/danificada.PNG" alt="Placas Danificadas" />
+              <h3>Substituição de Placas Danificadas</h3>
+            </div>
+
+            <div class="card">
+              <img src="imagens/suporte-placas.PNG" alt="Suporte de Placa" />
+              <h3>Instalação de Suporte de Placa</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="simulador-section" id="simulador">
+        <div class="section-header" data-bg-text="CUSTOM">
+          <div class="title-content">
+            <h2 class="section-title">Personalize sua Placa</h2>
+            <div class="title-accent"></div>
+          </div>
+        </div>
+
+        <div class="simulador-main-content">
+          <div class="simulador-visual">
+            <button class="sim-seta seta-esq" id="simPrev">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <div id="placaContainerSim" class="placa-base tipo-carro">
+              <img
+                src="imagens/placa_particular.png"
+                id="placaFundoSim"
+                alt="Placa Mercosul"
+                class="img-placa-vazia"
+              />
+              <div id="placaTexto" class="caracteres-placa">ABC1D23</div>
+            </div>
+
+            <button class="sim-seta seta-dir" id="simNext">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+
+          <div class="input-container-side">
+            <div class="input-group">
+              <label for="selectModeloPlaca">Selecione sua Placa</label>
+              <select id="selectModeloPlaca" class="combo-box-placas"></select>
+            </div>
+
+            <div class="input-group">
+              <label for="inputPlaca">Digite a Sequência</label>
+              <input
+                type="text"
+                id="inputPlaca"
+                maxlength="7"
+                placeholder="ABC1D23"
+              />
+            </div>
+
+            <div class="info-modelo">
+              <p class="sim-hint">
+                Use as setas laterais ou o menu acima para trocar o modelo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section" id="Sobre">
+        <div class="about-image">
+          <img src="imagens/fachada-deterleski.png" alt="Dterleski Placas" />
+        </div>
+
+        <div class="about-content">
+          <div class="about-header">
+            <h2 class="about-title">Sobre Nós</h2>
+            <div class="title-accent"></div>
+          </div>
+
+          <div class="about-text-wrapper">
+            <p class="about-paragraph">
+              A trajetória da <span>Dterleski Placas</span> é pautada por uma
+              evolução contínua, movida por visão estratégica e disciplina.
+              Fundada em 6 de maio de 2021, sob o nome de <em>Opala Placas</em>,
+              a empresa consolidou seu início focando na legalidade e no
+              compromisso inabalável com o cliente.
+            </p>
+
+            <p class="about-paragraph">
+              Em 1º de novembro de 2025, a empresa vivenciou um marco decisivo:
+              sob nova direção, iniciou-se uma fase orientada à sofisticação e à
+              estruturação de processos. Essa transição elevou o padrão de
+              entrega, unindo a experiência técnica a uma gestão focada na
+              excelência operacional.
+            </p>
+            <p class="about-paragraph">
+              Como estampadora <strong>EPIV</strong>, a Dterleski Placas
+              destaca-se pela precisão técnica e total conformidade com as
+              rigorosas normas do DETRAN. Investimos constantemente em inovação
+              e organização para garantir que cada placa produzida seja sinônimo
+              de segurança e confiabilidade.
+            </p>
+
+            <p class="about-paragraph highlight">
+              Mais do que fabricar placas, construímos credibilidade e
+              entregamos soluções que priorizam a satisfação plena de nossos
+              clientes.
+            </p>
+          </div>
+          <a href="https://wa.me/554733072997" class="btn-about-contact">
+            Entre em Contato <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="maps-section" id="localizacao">
+        <div class="maps-header">
+          <div class="maps-title-content">
+            <h2 class="maps-title">Nossa Localização</h2>
+            <div class="title-accent"></div>
+          </div>
+        </div>
+
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17039.9878782634!2d-50.32439451062573!3d-26.124493449696764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e773007b18e483%3A0xafe8eb5c2e38842a!2sDterleski%20Placas!5e0!3m2!1spt-BR!2sbr!4v1777642670041!5m2!1spt-BR!2sbr"
+            class="mapa-full"
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="footer-container">
+        <div class="footer-column branding">
+          <img
+            src="imagens/logo.png"
+            alt="Dterleski Placas"
+            class="footer-logo"
+          />
+          <div class="footer-social-icons">
+            <a
+              href="https://instagram.com/dterleski_placas"
+              target="_blank"
+              aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://wa.me/554733072997"
+              target="_blank"
+              aria-label="WhatsApp"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-column links">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#Servicos">Serviços</a></li>
+            <li><a href="#Sobre">Sobre Nós</a></li>
+            <li><a href="#localizacao">Localização</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column contact">
+          <h4>Visite-nos</h4>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> Avenida Rigesa, 2636<br />Três
+            Barras, SC
+          </p>
+          <p>
+            <i class="fas fa-clock"></i> Seg. à Qui. 08:00 - 18:00<br />Sex.
+            08:00 - 17:00
+          </p>
+          <p><i class="fas fa-phone"></i> (47) 3307-2997</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Dterleski Placas. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+
+  <a href="https://wa.me/554733072997" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</html>
